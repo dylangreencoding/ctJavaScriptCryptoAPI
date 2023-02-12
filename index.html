@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  
+  <header>
+    <div class="container">
+      <h1>Current Cryptocurrency Exchange Rates</h1>
+      
+      <section>
+        <span>Timestamp:</span>
+        <span id="timestamp"></span>
+      </section>
+      <section id="select-currency">
+        <div>    
+          <label for="USD">US Dollar</label>
+          <input type="radio" name="target" value="USD" id="USD">
+        </div>
+        <div>        
+          <label for="MXN">Mexican Peso</label>
+          <input type="radio" name="target" value="MXN" id="MXN">
+        </div>
+        <div>    
+          <label for="CAD">Canadian Dollar</label>
+          <input type="radio" name="target" value="CAD" id="CAD">
+        </div>
+      </section>
+      <section>
+        <label for="search">Search by first letter: </label>
+        <input type="text" name="search" id="search" maxlength="1">
+      </section>
+    </div>
+  </header>
+  <div class="container"></div>
+    <section id="grid-rates"></section>
+  </div>
+</body>
+</html>

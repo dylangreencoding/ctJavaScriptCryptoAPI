@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #ddd;
+  color: #333;
+  font-size: 2rem;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #eee;
+}
+
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+#select-currency {
+  display: flex;
+  justify-content: space-between;
+}
+
+#grid-rates {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 50vh;
+}
+
+.currency {
+  padding: 0 2rem 1rem 0;
+  justify-self: right;
+}
+
+.rate {
+  padding-left: 0 0 1rem 2rem;
+}
